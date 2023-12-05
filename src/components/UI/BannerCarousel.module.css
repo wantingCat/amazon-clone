@@ -1,0 +1,9 @@
+.main img {
+    max-width: 80vw;
+    width: 100%;
+}
+
+.top_container {
+    width: 80%;
+    margin: auto;   
+}

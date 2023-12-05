@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import amazonLogo from "../../assets/logo/amazon-2-logo-svgrepo-com.svg";
 import searchIcon from "../../assets/logo/search-svgrepo-com.svg";
+import cartIcon from "../../assets/logo/cart-shopping-svgrepo-com.svg"
 import classes from "./MainNavigation.module.css";
 
 function MainNavigation() {
@@ -24,7 +25,7 @@ function MainNavigation() {
                     <Link to="/account">Login</Link>
                 </div>
                 <div>
-                    <Link to="/cart">Cart</Link>
+                    <Link to="/cart"><img src={cartIcon} alt="cart" height={30} /></Link>
                 </div>
             </nav>
         </header>
