@@ -1,0 +1,17 @@
+.card {
+    padding: 5px;
+    margin: 10px;
+    border: solid 2px;
+    border-radius: 5px;
+
+    width: 100px;
+    
+    background-color: #fff;
+}
+
+.card p {
+    background-color: #CC0C39;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+}

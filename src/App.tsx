@@ -4,7 +4,7 @@ import RootLayout from "./pages/Root";
 import Home from "./pages/Home";
 import Cart from "./pages/Cart";
 import Orders from "./pages/Orders";
-import Account from "./pages/Account";
+import Auth from "./pages/Auth";
 
 const router = createBrowserRouter([
   {
@@ -24,8 +24,8 @@ const router = createBrowserRouter([
         element: <Orders />
       },
       {
-        path: "account",
-        element: <Account />
+        path: "auth",
+        element: <Auth />
       }
     ]
   }

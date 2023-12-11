@@ -1,0 +1,21 @@
+.container {
+    background-color: #232f3e;
+    height: 70px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    height: 70px;
+}
+
+.icon {
+    margin-bottom: -10px;
+}
+
+.container a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
