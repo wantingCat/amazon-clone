@@ -13,7 +13,7 @@ import banner6 from "../../assets/banners/prime_banner_3.jpg";
 function BannerCarousel() {
     const settings = {
         Infinite: true,
-        speed: 500,
+        speed: 300,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
@@ -21,7 +21,7 @@ function BannerCarousel() {
     };
 
     return (
-        <div className={classes['top_container']}>
+        <div className={classes.top_container}>
             <Slider {...settings} className={classes.main}>
                 <div>
                     <img src={banner1} alt="banner1" />

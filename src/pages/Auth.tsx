@@ -1,6 +1,8 @@
+import AuthForm from "../components/UI/login/AuthForm";
+
 function Auth() {
     return (
-        <h1>Account</h1>
+        <AuthForm />
     )
 }
 

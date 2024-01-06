@@ -5,7 +5,9 @@ function Home() {
     return (
         <div>
             <BannerCarousel />
-            <ProductDisplayHome />
+            <div className="home_product_display">
+                <ProductDisplayHome />
+            </div>
         </div>
     )
 }

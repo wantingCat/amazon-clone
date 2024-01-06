@@ -10,8 +10,8 @@ type Input = {
 const MiniCard: React.FC<Input> = ({ image, rating, title }) => {
     return (
         <div className={classes.card}>
-            <img src={image} alt={title} height={80} />
-            <p>{rating}</p>
+            <img src={image} alt={title} height={40} />
+            <p>{rating} ⭐</p>
         </div>
     )
 }
