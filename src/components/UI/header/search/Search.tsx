@@ -2,12 +2,14 @@ import React from "react";
 import searchIcon from "../../../../assets/logo/search-svgrepo-com.svg";
 
 import classes from "./Search.module.css";
-import { redirect } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Search() {
+  const navigate = useNavigate();
+  
   const onSubmitHandler = (e: React.FormEvent) => {
     e.preventDefault();
-    redirect("/products/search");
+    navigate("/products/search");
   };
   return (
     <div>
