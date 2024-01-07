@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { API } from "../../../utils/api";
+import Product from "../../../utils/Product";
 
 import MiniCard from "./mini-card/MiniCard";
 
@@ -45,10 +46,3 @@ function ProductDisplayHome() {
 }
 
 export default ProductDisplayHome;
-
-interface Product {
-  id: string;
-  thumbnail: string;
-  rating: number;
-  title: string;
-}
