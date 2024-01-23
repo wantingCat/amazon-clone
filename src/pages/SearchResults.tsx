@@ -1,13 +1,18 @@
 import { useLocation } from "react-router-dom";
 
+import SearchResultCard from "../components/UI/searchDisplay/SearchResultCard";
+import Product from "../utils/Product";
+
 function SearchResults() {
     const location = useLocation();
-    const data = location.state.data;
+    const data: Product[] = location.state.data;
 
     console.log(data);
 
     return (
-        <h1>results</h1>
+        <>
+            <SearchResultCard products={data} />
+        </>
     )
 }
 
